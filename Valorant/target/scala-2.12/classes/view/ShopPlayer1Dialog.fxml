@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="valorant.view.ShopPlayer1DialogController">
+   <children>
+      <Label layoutX="217.0" prefHeight="29.0" prefWidth="67.0" text="Sidearms">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <GridPane layoutY="29.0" prefHeight="94.0" prefWidth="501.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="93.0" minHeight="10.0" prefHeight="79.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button fx:id="classicButton" mnemonicParsing="false" onAction="#handleClassic" prefHeight="135.0" prefWidth="251.0">
+               <graphic>
+                  <ImageView fx:id="classicImage" fitHeight="86.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Button>
+            <Button fx:id="shortyButton" mnemonicParsing="false" onAction="#handleShorty" prefHeight="108.0" prefWidth="250.0" GridPane.columnIndex="1">
+               <graphic>
+                  <ImageView fx:id="shortyImage" fitHeight="86.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Button>
+         </children>
+      </GridPane>
+      <Label layoutX="191.0" layoutY="275.0" prefHeight="29.0" prefWidth="119.0" text="Primary Weapons">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="player1CreditsText" layoutX="377.0" prefHeight="29.0" prefWidth="120.0" text="Credits: $500">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="classicText" layoutX="48.0" layoutY="123.0" prefHeight="29.0" prefWidth="156.0">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="shortyText" layoutX="295.0" layoutY="123.0" prefHeight="29.0" prefWidth="156.0">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <GridPane layoutY="152.0" prefHeight="94.0" prefWidth="501.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="93.0" minHeight="10.0" prefHeight="79.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button fx:id="frenzyButton" mnemonicParsing="false" onAction="#handleFrenzy" prefHeight="135.0" prefWidth="251.0">
+               <graphic>
+                  <ImageView fx:id="frenzyImage" fitHeight="86.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Button>
+            <Button fx:id="sheriffButton" mnemonicParsing="false" onAction="#handleSheriff" prefHeight="108.0" prefWidth="250.0" GridPane.columnIndex="1">
+               <graphic>
+                  <ImageView fx:id="sheriffImage" fitHeight="86.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Button>
+         </children>
+      </GridPane>
+      <Label fx:id="frenzyText" layoutX="48.0" layoutY="246.0" prefHeight="29.0" prefWidth="156.0">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="sheriffText" layoutX="295.0" layoutY="246.0" prefHeight="29.0" prefWidth="156.0">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <GridPane layoutY="304.0" prefHeight="94.0" prefWidth="501.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="93.0" minHeight="10.0" prefHeight="79.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button fx:id="spectreButton" mnemonicParsing="false" onAction="#handleSpectre" prefHeight="135.0" prefWidth="251.0">
+               <graphic>
+                  <ImageView fx:id="spectreImage" fitHeight="86.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Button>
+            <Button fx:id="vandalButton" mnemonicParsing="false" onAction="#handleVandal" prefHeight="108.0" prefWidth="250.0" GridPane.columnIndex="1">
+               <graphic>
+                  <ImageView fx:id="vandalImage" fitHeight="86.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Button>
+         </children>
+      </GridPane>
+      <Label fx:id="spectreText" layoutX="48.0" layoutY="398.0" prefHeight="29.0" prefWidth="156.0">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="vandalText" layoutX="295.0" layoutY="398.0" prefHeight="29.0" prefWidth="156.0">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <GridPane layoutY="427.0" prefHeight="94.0" prefWidth="501.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints maxHeight="93.0" minHeight="10.0" prefHeight="79.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Button fx:id="odinButton" mnemonicParsing="false" onAction="#handleOdin" prefHeight="135.0" prefWidth="251.0">
+               <graphic>
+                  <ImageView fx:id="odinImage" fitHeight="86.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Button>
+            <Button fx:id="operatorButton" mnemonicParsing="false" onAction="#handleOperator" prefHeight="108.0" prefWidth="250.0" GridPane.columnIndex="1">
+               <graphic>
+                  <ImageView fx:id="operatorImage" fitHeight="86.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+               </graphic>
+            </Button>
+         </children>
+      </GridPane>
+      <Label fx:id="odinText" layoutX="48.0" layoutY="521.0" prefHeight="29.0" prefWidth="156.0">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="operatorText" layoutX="295.0" layoutY="521.0" prefHeight="29.0" prefWidth="156.0">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="22.0" layoutY="2.0" mnemonicParsing="false" onAction="#handleCancel" text="Cancel" />
+   </children>
+</AnchorPane>
