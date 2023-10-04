@@ -3,7 +3,7 @@ This GUI application is two-player turn-based game where players take control of
 <p>
 It is based on the free-to-play FPS tactical hero shooter game of the same name developed by Riot Games. In the original game, players can select characters with unique abilities and use different types of guns to shoot at their enemies. Hence, the goal was focused on bringing the main gunplay of the original game and translate that into a turn-based game while the unique abilities of the characters are omitted due to the limited time of the project. However, the ability to choose characters and maps are still retained as they are a key part of the original game’s identity. 
 <p>
-This game has several different characters and map to choose from to for players to set up their battle. Each player also has access to their own “Shop” where they can use credits to purchase new weapons each with their own strengths and weaknesses. 
+The game has several different characters and maps for players to choose from to set up their battle. Each player also has access to their own “Shop” where they can use credits to purchase new weapons each with their own strengths and weaknesses. 
 
 # Screenshots
 ![image](https://github.com/BBR0XX/valorant-scala-game/assets/116264199/334e0021-4295-4061-97ab-c44cb630fc62)
